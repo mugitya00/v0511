@@ -9,7 +9,17 @@ namespace v0511
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("‚±‚ñ‚É‚¿‚í");
+            //MessageBox.Show("‚±‚ñ‚É‚¿‚í");
+            button1.Text = "‰Ÿ‚³‚ê‚½";
+            button1.Left = 100;
+            button1.Visible = false;
+            button2.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Visible=false;
+            button1 .Visible=true;
         }
     }
 }
